@@ -1,1 +1,0 @@
-GoIT. HTML&CSS Demo Course
