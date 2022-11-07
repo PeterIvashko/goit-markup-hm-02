@@ -1,0 +1,23 @@
+header {
+    width: 1600px;
+    height: 80px;
+    display: flex;
+    color: white;
+}
+.header {
+    display: flex;
+}
+.header li {
+    list-style-type: none;
+    margin: 30px; 
+}
+.complex_list {
+    display: flex;
+    margin-left: 215px;
+    margin-right: 215px;
+}
+.complex_list li {
+    list-style-type: none;
+    margin: 30px;  
+}
+  
