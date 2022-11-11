@@ -478,6 +478,9 @@ html {
     top: 2094px;   
     background-color: #2F303A;
     text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 .footer-logo {
     margin-left: 215px;
@@ -497,8 +500,10 @@ html {
 .footer-address {
     list-style-type: none;
     text-decoration: none;
+    margin-left: 215px;
+    padding-left: 0;
 }
-.footer-location {
+.footer-location > a {
 
     width: 231px;
     height: 21px;
@@ -517,7 +522,7 @@ html {
     color: #FFFFFF;
     
 }
-.footer-mail {
+.footer-mail > a {
     width: 231px;
     height: 21px;
     left: 215px;
@@ -534,7 +539,7 @@ html {
     
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-tel {
+.footer-tel > a {
     width: 231px;
     height: 21px;
     left: 215px;
