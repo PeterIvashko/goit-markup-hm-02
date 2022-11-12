@@ -1,9 +1,23 @@
-html {
-    width: 1600px;
+body * {
+    width: 100%;
+}
+body {
+    width: 100%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
 }
 .header {
     width: 1600px;
     height: 80px;
+}
+:root {
+    --main-font-color: #2196f3;
+    --secondary-font-color: #757575;
+    --accent-color: #212121;
+    --main-background-color: #2196F3;
 }
 .contact {
     color: #000;
@@ -24,12 +38,11 @@ html {
     left: 215px;
     top: 24px;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
     letter-spacing: 0.03em;
-    color: #2196F3;
+    color: var(--main-font-color);
 }
 .logo2 {
     color: #000;   
@@ -41,25 +54,21 @@ html {
     height: 16px;
     left: 453px;
     top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    
     letter-spacing: 0.02em;
     color: #000;
 }
 .studio:hover {
-    color: #2196F3;
+    color: var(--main-font-color);
 }
 .studio:active {
-    color: #2196F3;
+    color: var(--main-font-color);
 }
 .portfolio:hover {
-    color: #2196F3
+    color: var(--main-font-color);
 }
 .portfolio:active {
-    color: #2196F3;
+    color: var(--main-font-color);
 }
 .portfolio {
     text-decoration: none;
@@ -68,19 +77,15 @@ html {
     height: 16px;
     left: 548px;
     top: 32px;    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    
     letter-spacing: 0.02em;    
-    color: #212121; 
+    color: var(--accent-color); 
 }
 .contacts:hover {
-    color: #2196F3;
+    color: var(--main-font-color);
 }
 .contacts:active {
-    color: #2196F3;
+    color: var(--main-font-color);
 }
 .contacts {
     text-decoration: none;
@@ -89,13 +94,10 @@ html {
     height: 16px;
     left: 670px;
     top: 32px;    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;    
-    color: #212121;
+    
+    letter-spacing: 0.02em;
+    color: var(--accent-color);    
+    color: var(--accent-color);
 }
 .mail {
     text-decoration: none;
@@ -104,27 +106,28 @@ html {
     height: 16px;
     left: 1078px;
     top: 32px;    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;   
-    color: #2196F3;
+    
+    letter-spacing: 0.02em; 
+    color: var(--secondary-font-color); 
+}
+.mail:hover {
+    color: var(--main-font-color);
+    text-decoration: none;
+}
+.tel:hover {
+    color: var(--main-font-color);
+    text-decoration: none;
 }
 .tel {
+    text-decoration: none;
     position: absolute;
     width: 122px;
     height: 16px;
     left: 1263px;
     top: 32px;   
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
+    
     letter-spacing: 0.02em;   
-    color: #757575;
+    color: var(--secondary-font-color); 
 }
 .section1 {
     position: absolute;
@@ -132,14 +135,13 @@ html {
     height: 600px;
     left: 0px;
     top: 80px;
-    background: #000;
+    background: #2F303A;
 }
 .title {
+    text-transform: uppercase;
     margin-top: 200px;
     text-align: center;
     color: #ffffff;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -155,6 +157,9 @@ html {
     background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
+    border: #2196F3;
+    cursor: pointer;
+    font-family: inherit;
 }
 .section2 {
     list-style-type: none;
@@ -166,15 +171,13 @@ html {
     left: 215px;
     top: 774px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .title2 {
     position: absolute;
@@ -183,15 +186,13 @@ html {
     left: 515px;
     top: 774px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .title3 {
     position: absolute;
@@ -200,15 +201,13 @@ html {
     left: 815px;
     top: 774px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .title4 {
     position: absolute;
@@ -217,15 +216,13 @@ html {
     left: 1115px;
     top: 774px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 14px;
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     
-    color: #212121;
+    color: var(--accent-color);
     
 }
 .text1 {
@@ -235,8 +232,6 @@ html {
     left: 215px;
     top: 800px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -244,7 +239,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--secondary-font-color); 
 }
 .text2 {
     position: absolute;
@@ -253,15 +248,13 @@ html {
     left: 515px;
     top: 800px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--secondary-font-color); 
     
 }
 .text3 {
@@ -271,8 +264,6 @@ html {
     left: 815px;
     top: 800px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -280,7 +271,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--secondary-font-color); 
 }
 .text4 {
     position: absolute;
@@ -289,8 +280,6 @@ html {
     left: 1115px;
     top: 800px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -298,7 +287,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--secondary-font-color); 
     
 }
 .section2 {
@@ -311,15 +300,13 @@ html {
     left: 617px;
     top: 966px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .img1-section2 {
     position: absolute;
@@ -353,15 +340,13 @@ html {
     left: 668px;
     top: 1540px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .box1 {
     position: absolute;
@@ -375,24 +360,20 @@ html {
     border-radius: 0px 0px 4px 4px;
 }
 .title-box1 {   
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;   
-    color: #212121;
+    color: var(--accent-color);
 }
 .text-box1 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px; 
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-font-color); 
 }
 .box2 {
     position: absolute;
@@ -405,24 +386,20 @@ html {
     border-radius: 0px 0px 4px 4px;
 }
 .title-box2 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px; 
     text-align: center;
     letter-spacing: 0.03em; 
-    color: #212121;    
+    color: var(--accent-color);    
 }
 .text-box2 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em;
-    color: #757575;
+    color: var(--secondary-font-color); 
         
 }
 .box3 {
@@ -437,24 +414,20 @@ html {
         
 }
 .title-box3 {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;  
     text-align: center;
     letter-spacing: 0.03em;
-    color: #212121;    
+    color: var(--accent-color);    
 }
 .text-box3 { 
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
     letter-spacing: 0.03em; 
-    color: #757575;    
+    color: var(--secondary-font-color);     
 }
 .box4 {
     position: absolute;
@@ -468,25 +441,21 @@ html {
        
 }
 .title-box4 { 
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;  
     text-align: center;
     letter-spacing: 0.03em; 
-    color: #212121;    
+    color: var(--accent-color);    
 }
 .text-box4 {  
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     /* identical to box height */   
     text-align: center;
     letter-spacing: 0.03em;   
-    color: #757575;    
+    color: var(--secondary-font-color);     
 }
 .footer {
     position: absolute;
@@ -505,7 +474,6 @@ html {
     text-decoration: none;
     text-decoration: none;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -513,7 +481,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #2196F3;
+    color: var(--main-font-color);
 }
 .footer-address {
     list-style-type: none;
@@ -528,8 +496,6 @@ html {
     left: 215px;
     top: 2205px;
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -546,8 +512,6 @@ html {
     left: 215px;
     top: 2235px;
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -557,14 +521,24 @@ html {
     
     color: rgba(255, 255, 255, 0.6);
 }
+.footer-location > a:hover {
+    color: var(--main-font-color);
+    text-decoration: none;
+}
+.footer-mail > a:hover {
+    color: var(--main-font-color);
+    text-decoration: none;
+}
+.footer-tel > a:hover {
+    color: var(--main-font-color);
+    text-decoration: none;
+}
 .footer-tel > a {
     width: 231px;
     height: 21px;
     left: 215px;
     top: 2265px;
     text-decoration: none;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
@@ -578,6 +552,8 @@ html {
     list-style-type: none;
 }
 .buttons1 {
+    cursor: pointer;
+    font-family: inherit;
     position: absolute;
     width: 73px;
     height: 38px;
@@ -588,18 +564,20 @@ html {
 }
 .buttons1:hover {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--main-background-color);
     border: #ffffff;
     border-radius: 4px;  
 }
 .buttons1:active {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--main-background-color);
     border: #ffffff;
     box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.08), 0px 3px 3px rgba(0, 0, 0, 0.12);
     border-radius: 4px;  
 }
 .buttons2 {
+    cursor: pointer;
+    font-family: inherit;
     position: absolute;
     width: 125px;
     height: 38px;
@@ -611,18 +589,20 @@ html {
 }
 .buttons2:hover {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--main-background-color);
     border: #ffffff;
     border-radius: 4px; 
 }
 .buttons2:active {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--main-background-color);
     border: #ffffff;
     box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.08), 0px 3px 3px rgba(0, 0, 0, 0.12);
     border-radius: 4px; 
 }
 .buttons3 {
+    cursor: pointer;
+    font-family: inherit;
     position: absolute;
     width: 112px;
     height: 38px;
@@ -634,18 +614,20 @@ html {
 }
 .buttons3:hover {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--main-background-color);
     border: #ffffff;
     border-radius: 4px; 
 }
 .buttons3:active {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--main-background-color);
     border: #ffffff;
     box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.08), 0px 3px 3px rgba(0, 0, 0, 0.12);
     border-radius: 4px; 
 }
 .buttons4 {
+    cursor: pointer;
+    font-family: inherit;
     position: absolute;
     width: 103px;
     height: 38px;
@@ -657,18 +639,20 @@ html {
 }
 .buttons4:hover {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--main-background-color);
     border: #ffffff;
     border-radius: 4px; 
 }
 .buttons4:active {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--main-background-color);
     border: #ffffff;
     box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.08), 0px 3px 3px rgba(0, 0, 0, 0.12);
     border-radius: 4px; 
 }
 .buttons5 {
+    cursor: pointer;
+    font-family: inherit;
     position: absolute;
     width: 130px;
     height: 38px;
@@ -680,13 +664,13 @@ html {
 }
 .buttons5:hover {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--main-background-color);
     border: #ffffff;
     border-radius: 4px; 
 }
 .buttons5:active {
     color: #FFFFFF;
-    background: #2196F3;
+    background: var(--main-background-color);
     border: #ffffff;
     box-shadow: 0px 4px 2px rgba(0, 0, 0, 0.1), 0px 2px 3px rgba(0, 0, 0, 0.08), 0px 3px 3px rgba(0, 0, 0, 0.12);
     border-radius: 4px; 
@@ -811,8 +795,6 @@ html {
     left: 239px;
     top: 576px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -820,7 +802,7 @@ html {
     
     letter-spacing: 0.06em;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .main-title2 {
     
@@ -829,8 +811,6 @@ html {
     left: 639px;
     top: 576px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -838,7 +818,7 @@ html {
     
     letter-spacing: 0.06em;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .main-title3 {
     
@@ -847,8 +827,6 @@ html {
     left: 1039px;
     top: 576px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -856,7 +834,7 @@ html {
     
     letter-spacing: 0.06em;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .main-title4 {
     
@@ -865,8 +843,6 @@ html {
     left: 239px;
     top: 1010px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -874,7 +850,7 @@ html {
     
     letter-spacing: 0.06em;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .main-title5 {
     
@@ -883,8 +859,6 @@ html {
     left: 639px;
     top: 1010px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -892,7 +866,7 @@ html {
     
     letter-spacing: 0.06em;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .main-title6 {
     
@@ -901,8 +875,6 @@ html {
     left: 1039px;
     top: 1010px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -910,7 +882,7 @@ html {
     
     letter-spacing: 0.06em;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .main-title7 {
     
@@ -919,8 +891,6 @@ html {
     left: 239px;
     top: 1444px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -928,7 +898,7 @@ html {
     
     letter-spacing: 0.06em;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .main-title8 {
     
@@ -937,8 +907,6 @@ html {
     left: 639px;
     top: 1444px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -946,7 +914,7 @@ html {
     
     letter-spacing: 0.06em;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .main-title9 {
     
@@ -955,8 +923,6 @@ html {
     left: 1039px;
     top: 1444px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 36px;
@@ -964,7 +930,7 @@ html {
     
     letter-spacing: 0.06em;
     
-    color: #212121;
+    color: var(--accent-color);
 }
 .main-text1 {
     
@@ -973,8 +939,6 @@ html {
     left: 239px;
     top: 616px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -982,7 +946,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--secondary-font-color); 
 }
 .main-text2 {
     width: 322px;
@@ -990,8 +954,6 @@ html {
     left: 639px;
     top: 616px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -999,7 +961,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #757575;    
+    color: var(--secondary-font-color);     
 }
 .main-text3 {
     width: 322px;
@@ -1007,8 +969,6 @@ html {
     left: 1039px;
     top: 616px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -1016,7 +976,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--secondary-font-color); 
         
 }
 .main-text4 {
@@ -1026,8 +986,6 @@ html {
     left: 239px;
     top: 1050px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -1035,7 +993,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #757575;    
+    color: var(--secondary-font-color);     
 }
 .main-text5 {
     
@@ -1044,8 +1002,6 @@ html {
     left: 639px;
     top: 1050px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -1053,7 +1009,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #757575;   
+    color: var(--secondary-font-color);    
 }
 .main-text6 {
     
@@ -1062,8 +1018,6 @@ html {
     left: 1039px;
     top: 1050px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -1071,7 +1025,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #757575;    
+    color: var(--secondary-font-color);     
 }
 .main-text7 {
     
@@ -1080,8 +1034,6 @@ html {
     left: 239px;
     top: 1484px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -1089,7 +1041,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--secondary-font-color); 
         
 }
 .main-text8 {
@@ -1099,8 +1051,6 @@ html {
     left: 639px;
     top: 1484px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -1108,7 +1058,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #757575;
+    color: var(--secondary-font-color); 
         
 }
 .main-text9 {
@@ -1118,8 +1068,6 @@ html {
     left: 1039px;
     top: 1484px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 30px;
@@ -1127,7 +1075,7 @@ html {
     
     letter-spacing: 0.03em;
     
-    color: #757575;    
+    color: var(--secondary-font-color);     
 }
 .main-img1 {
     width: 370px;
