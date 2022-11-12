@@ -1,6 +1,16 @@
 html {
     width: 1600px;
 }
+
+body * {
+    font-style: normal;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}
+
 .header {
     width: 1600px;
     height: 80px;
@@ -24,7 +34,6 @@ html {
     left: 215px;
     top: 24px;
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 26px;
     line-height: 31px;
@@ -41,12 +50,6 @@ html {
     height: 16px;
     left: 453px;
     top: 32px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
     color: #2196F3;
 }
 .portfolio {
@@ -56,12 +59,6 @@ html {
     height: 16px;
     left: 548px;
     top: 32px;    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;    
     color: #212121; 
 }
 .contacts {
@@ -71,12 +68,6 @@ html {
     height: 16px;
     left: 670px;
     top: 32px;    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;    
     color: #212121;
 }
 .mail {
@@ -86,12 +77,6 @@ html {
     height: 16px;
     left: 1078px;
     top: 32px;    
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;   
     color: #2196F3;
 }
 .tel {
@@ -100,12 +85,6 @@ html {
     height: 16px;
     left: 1263px;
     top: 32px;   
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;   
     color: #757575;
 }
 .section1 {
@@ -120,8 +99,6 @@ html {
     margin-top: 200px;
     text-align: center;
     color: #ffffff;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
@@ -148,12 +125,6 @@ html {
     left: 215px;
     top: 774px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     
     color: #212121;
@@ -165,12 +136,7 @@ html {
     left: 515px;
     top: 774px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     
     color: #212121;
@@ -182,12 +148,7 @@ html {
     left: 815px;
     top: 774px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     
     color: #212121;
@@ -199,12 +160,7 @@ html {
     left: 1115px;
     top: 774px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     
     color: #212121;
@@ -217,14 +173,7 @@ html {
     left: 215px;
     top: 800px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-    
-    letter-spacing: 0.03em;
     
     color: #757575;
 }
@@ -235,13 +184,7 @@ html {
     left: 515px;
     top: 800px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
-    
-    letter-spacing: 0.03em;
     
     color: #757575;
     
@@ -253,14 +196,7 @@ html {
     left: 815px;
     top: 800px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-    
-    letter-spacing: 0.03em;
     
     color: #757575;
 }
@@ -271,14 +207,9 @@ html {
     left: 1115px;
     top: 800px;
     
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
     line-height: 24px;
     /* or 171% */
     
-    letter-spacing: 0.03em;
     
     color: #757575;
     
@@ -293,13 +224,10 @@ html {
     left: 617px;
     top: 966px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
     
     color: #212121;
 }
@@ -335,13 +263,10 @@ html {
     left: 668px;
     top: 1540px;
     
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
     text-align: center;
-    letter-spacing: 0.03em;
     
     color: #212121;
 }
@@ -357,23 +282,15 @@ html {
     border-radius: 0px 0px 4px 4px;
 }
 .title-box1 {   
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;   
     color: #212121;
 }
 .text-box1 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px; 
     text-align: center;
-    letter-spacing: 0.03em;
     color: #757575;
 }
 .box2 {
@@ -387,23 +304,15 @@ html {
     border-radius: 0px 0px 4px 4px;
 }
 .title-box2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 19px; 
     text-align: center;
-    letter-spacing: 0.03em; 
     color: #212121;    
 }
 .text-box2 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     text-align: center;
-    letter-spacing: 0.03em;
     color: #757575;
         
 }
@@ -419,18 +328,12 @@ html {
         
 }
 .title-box3 {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 19px;  
     text-align: center;
-    letter-spacing: 0.03em;
     color: #212121;    
 }
 .text-box3 { 
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -450,9 +353,6 @@ html {
        
 }
 .title-box4 { 
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 500;
     font-size: 16px;
     line-height: 19px;  
     text-align: center;
@@ -460,8 +360,6 @@ html {
     color: #212121;    
 }
 .text-box4 {  
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -510,7 +408,6 @@ html {
     left: 215px;
     top: 2205px;
     text-decoration: none;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -528,7 +425,6 @@ html {
     left: 215px;
     top: 2235px;
     text-decoration: none;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -545,7 +441,6 @@ html {
     left: 215px;
     top: 2265px;
     text-decoration: none;
-    font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
