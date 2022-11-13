@@ -1150,7 +1150,7 @@ body {
     left: 1015px;
     top: 1130px;    
 }
-visually-hidden {
+.visually-hidden {
     position: absolute;
     white-space: nowrap;
     width: 1px;
