@@ -206,7 +206,7 @@ body {
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-
+    margin-top: 118px;
     color: #212121;
 }
 .section3 {
@@ -343,4 +343,7 @@ body {
     letter-spacing: 0.03em;
     color: #757575;
     margin-left: 24px;
+}
+.visually-hidden {
+    visibility: hidden;
 }
