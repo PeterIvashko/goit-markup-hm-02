@@ -3,7 +3,7 @@ body {
     font-family: 'Roboto';
     font-style: normal;
 }
-.header {
+.header {   
     width: 100%;
     height: 80px;
     background-color: #fff;
@@ -16,19 +16,16 @@ body {
     letter-spacing: 0.02em;
     color: #2196F3;
     display: flex;
-   position: absolute;
     list-style-type: none;
     text-decoration: none;
 }
-.contact > li {
-    text-decoration: none;
+.contacts {
+    margin-right: 30px;
+    list-style-type: none;
+    display: flex;
 }
 .logo {
-    position: absolute;
-    width: 145px;
-    height: 31px;
-    left: 215px;
-    top: 24px;
+    margin-left: 258px;
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
@@ -40,11 +37,6 @@ body {
     color: black;
 }
 .studio {
-   position: absolute;
-    width: 45px;
-    height: 16px;
-    left: 453px;
-    top: 24px;
     text-decoration: none;
     color: #212121;
 }
@@ -52,11 +44,6 @@ body {
     color: #2196F3;
 }
 .portfolio {
-   position: absolute;
-    width: 72px;
-    height: 16px;
-    left: 548px;
-    top: 24px;
     text-decoration: none;
     color: #212121;
 }
@@ -64,11 +51,6 @@ body {
     color: #2196F3;
 }
 .contacts {
-   position: absolute;
-    width: 64px;
-    height: 16px;
-    left: 670px;
-    top: 24px;
     text-decoration: none;
     color: #212121;
 }
@@ -76,23 +58,14 @@ body {
     color: #2196F3;
 }
 .tel {
-   position: absolute;
-    width: 135px;
-    height: 16px;
-    left: 1078px;
-    top: 24px;
     text-decoration: none;
     color: #212121;
 }
 .tel:hover {
     color: #2196F3;
 }
-.mail {
-    position: absolute;
-    width: 122px;
-    height: 16px;
-    left: 1263px;
-    top: 24px;   
+.mail {  
+    margin-right: 100px;  
     color: #212121;
     text-decoration: none;
 }
@@ -285,40 +258,89 @@ body {
     padding-top: 96px;
     color: #212121;
 }
-/* .footer {
-    position: absolute;    
-    width: 1600px;
+.footer {
     height: 252px;
-    left: 0px;
-    top: 2094px;
-    background-color: #2F303A;
-    text-decoration: none;   
+    background-color: #2F303A;;
+}
+.buttons {
+    list-style-type: none;
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
-.footer-logo {
-    margin-left: 215px;
+.buttons1 {
+    padding-left: 22px;
+    padding-right: 22px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    margin-right: 10px;
+    background: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #212121;
+    box-shadow: none;
+    border: #F5F4FA;
 }
-.footer-address {
-    list-style-type: none;
-    text-decoration: none;
-    margin-left: 215px;
-    padding-left: 0;
-}
-.footer-location > a {
-    width: 231px;
-    height: 21px;
+.buttons1:hover {
+    background: #2196F3;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.03em;    
     color: #FFFFFF;
+    border: #F5F4FA;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
-.footer-mail > a {
-    width: 231px;
-    height: 21px;
-    left: 215px;
-    color: rgba(255, 255, 255, 0.6);
+.main-box1 {
+    margin-right: 30px;
+    box-sizing: border-box;
+    background: #FFFFFF;
+    border: 1px solid #EEEEEE;
+    list-style-type: none;
+    width: 370px;
+    height: 404px;
 }
-.footer-tel>a {
-    width: 231px;
-    height: 21px;
-    left: 215px;
-} */
+.boxing {
+    margin-top: 56px;
+    display: flex;
+    justify-content: center;
+}
+.boxing1 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.boxing2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+.main-img1 {
+    width: 370px;
+    height: 294px;
+}
+.main-title1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
+    letter-spacing: 0.06em;
+    color: #212121;
+    margin-left: 24px;
+}
+.main-text1 {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: #757575;
+    margin-left: 24px;
+}
