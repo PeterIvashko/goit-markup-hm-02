@@ -11,8 +11,10 @@ body {
     display: flex;
 }
 .contact {
+    padding-left: 258px;
     margin-top: 25px;
     display: flex;
+    align-items: center;
     justify-content: space-between;
     font-weight: 500;
     font-size: 14px;
@@ -32,7 +34,6 @@ body {
 }
 .logo {
     margin-right: 95px;
-    margin-left: 258px;
     text-decoration: none;
     font-weight: 700;
     font-size: 26px;
@@ -43,46 +44,20 @@ body {
 .logo2 {
     color: black;
 }
-.studio {
-    margin-bottom: 32px;
+.header-li {
     margin-right: 50px;
     text-decoration: none;
     color: #212121;
 }
-.studio:hover {
+.header-li:hover {
     color: #2196F3;
 }
-.portfolio {
-    margin-right: 50px;
-    margin-top: 32px;
-    text-decoration: none;
-    color: #212121;
-}
-.portfolio:hover {
-    color: #2196F3;
-}
-.contac {
-    margin-top: 32px;
-    text-decoration: none;
-    color: #212121;
-}
-.contacts:hover {
-    color: #2196F3;
-}
-.tel {
+.nav-li {
     margin-right: 50px;
     text-decoration: none;
     color: #212121;
 }
-.tel:hover {
-    color: #2196F3;
-}
-.mail {  
-    margin-right: 100px;  
-    color: #212121;
-    text-decoration: none;
-}
-.mail:hover {
+.nav-li:hover {
     color: #2196F3;
 }
 .section1 {
@@ -143,10 +118,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-
     letter-spacing: 0.03em;
-
     color: #757575;
 }
 .title2 {
@@ -155,19 +127,14 @@ body {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #212121;
 }
-
 .text2 {
     padding-right: 30px;
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
-
     letter-spacing: 0.03em;
-
     color: #757575;
 }
 .title3 {
@@ -179,15 +146,12 @@ body {
 
     color: #212121;
 }
-
 .text3 {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
     padding-right: 30px;
     letter-spacing: 0.03em;
-
     color: #757575;
 }
 .title4 {
@@ -196,18 +160,14 @@ body {
     line-height: 16px;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-
     color: #212121;
 }
-
 .text4 {
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-    /* or 171% */
     padding-right: 30px;
     letter-spacing: 0.03em;
-
     color: #757575;
 }
 .title-section2 {
@@ -392,4 +352,8 @@ body {
 }
 .footer-address {
     list-style-type: none;
+}
+.line {
+    border: 1px solid #ECECEC;
+    margin: 0;
 }
