@@ -1,0 +1,406 @@
+.header {
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.header-top {
+    display: flex;
+}
+.menu {
+    display: flex;
+}
+.contacts {
+    display: flex;
+    
+}
+.header-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+
+    margin-right: 62px;
+    margin-left: 258px;
+    text-decoration: none;
+
+    color: #2196F3;
+}
+.header-logo__black {
+    color: #000;
+}
+.contact-element__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    padding-right: 60px;
+    color: #757575;
+    text-decoration: none;
+}
+.contact-element__link:hover {
+    color: #2196F3;
+}
+.menu-element__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+
+    text-decoration: none;
+    margin-left: 60px;
+    
+
+    color: #212121;
+}
+.menu-element__link:hover {
+    color: #2196F3;
+}
+.navigation {
+    margin-right: 410px;
+}
+.service {
+    padding-top: 200px;
+    height: 600px;
+    
+    background: #2F303A;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.service-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+.service-button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 30px;
+
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.06em;
+
+    width: 216px;
+    height: 50px;
+    color: #FFFFFF;
+    background: #2196F3;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.achievement {
+    margin-left: 258px;
+    margin-top: 95px;
+}
+.achievement-block {
+    margin-right: 100px;
+    display: flex;
+}
+.achievement-block__description {
+    margin-right: 100px;
+}
+.achievement-block__title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+
+    color: #212121;
+}
+.achievement-block__text {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    margin-top: 10px;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+.target-title {
+    margin-bottom: 50px;
+    margin-top: 95px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.target-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.target-image__element {
+    margin-left: 30px;
+    margin-bottom: 95px;
+}
+.team {
+    background: #F5F4FA;
+    height: 648px;
+}
+.team-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    padding-top: 95px;
+    padding-bottom: 50px;
+
+    color: #212121;
+}
+.team-element {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.team-element__block {
+    width: 270px;
+    height: 368px;
+    margin-left: 30px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
+}
+.block-title {
+    padding-top: 30px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #212121;
+}
+.block-text {
+    padding-top: 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: center;
+    letter-spacing: 0.03em;
+
+    color: #757575;
+}
+.footer {
+    padding-top: 60px;
+    padding-left: 258px;
+    height: 252px;
+    background: #2F303A;
+}
+.footer-logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+
+    text-decoration: none;
+    letter-spacing: 0.03em;
+
+    color: #2196F3;
+}
+.footer-logo_white {
+    color: #fff;
+}
+.address-element__address {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
+    text-decoration: none;
+    margin-bottom: 10px;
+    letter-spacing: 0.03em;
+
+    color: #FFFFFF;
+}
+.address-element__link {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+   
+    text-decoration: none;
+
+    letter-spacing: 0.03em;
+
+    color: rgba(255, 255, 255, 0.6);
+}
+.address {
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+/* @media (max-width: 1650px) {
+    .navigation {
+        margin-right: 200px;
+    }
+} */
+@media (max-width: 1650px) {
+    .header-logo {
+        margin-left: 158px;
+    }
+
+    .navigation {
+        margin-right: 310px;
+    }
+}
+
+@media (max-width: 1400px) {
+    .header-logo {
+        margin-left: 58px;
+    }
+
+    .navigation {
+        margin-right: 210px;
+    }
+
+    .achievement {
+        margin-left: 58px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .header-logo {
+        margin-left: 18px;
+    }
+
+    .navigation {
+        margin-right: 110px;
+    }
+
+    .achievement {
+        margin-left: 18px;
+    }
+
+    .team-element__block {
+        width: 250px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .header {
+        height: 80px;
+    }
+
+    .header-logo {
+        margin-left: 8px;
+        font-size: 24px;
+    }
+
+    .navigation {
+        display: none;
+    }
+
+    .achievement {
+        display: none;
+    }
+
+    .target-title {
+        font-size: 28px;
+    }
+
+    .team-title {
+        font-size: 28px;
+    }
+
+    .team-element__block {
+        width: 230px;
+    }
+}
+
+@media (max-width: 800px) {
+    .header {
+        height: 60px;
+    }
+
+    .header-logo {
+        margin-left: 8px;
+        font-size: 20px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .contacts {
+        display: none;
+    }
+
+    .service-title {
+        font-size: 28px;
+    }
+
+    .service-button {
+        font-size: 14px;
+    }
+
+    .achievement-block {
+        display: block;
+    }
+
+    .achievement-block__description {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .achievement-block__title {
+        font-size: 12px;
+    }
+
+    .achievement-block__text {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .target-image__element {
+        margin-left: 10px;
+        margin-bottom: 50px;
+    }
+
+    .team-element__block {
+        width: 200px;
+        height: 300px;
+        margin-left: 10px;
+    }
+}
